@@ -42,7 +42,7 @@ public class HeapSort {
 	public void maxHeapify(int index) {
 		int l = left(index);
 		int r = right(index);
-		int largest;
+		int largest = index;
 		Comparable temp;
 		if ((l <= heapSize) && (in.get(l).compareTo(in.get(index)) > 0))
 			largest = l;

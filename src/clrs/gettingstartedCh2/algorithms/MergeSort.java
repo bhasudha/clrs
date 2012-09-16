@@ -10,8 +10,8 @@ public class MergeSort {
 	}
 
 	/*
-	 * start - starting postion of the (sub)array to be sorted end - ending
-	 * position of the (sub) array to be sorted
+	 * start - starting postion of the (sub)array to be sorted 
+	 * end - ending position of the (sub) array to be sorted
 	 */
 	public ArrayList<Comparable> doSort(int start, int end) {
 		int mid = (start + end) / 2;
